@@ -1,0 +1,44 @@
+main{
+	background-image:  url('../nuotraukos/bg.jpg');
+	background-size: cover;
+}
+article{
+	background-color: #ba41cc;
+	opacity: 0.5;
+}
+h1{
+	color: aqua;
+	font-size: 2.5em;
+	font-family: 'Raleway', sans-serif;
+}
+h2{
+	color: red;
+	font-size: 2em;
+	font-family: Tahoma, sans-serif;
+}
+
+h1,h2{
+	text-transform: uppercase;
+	text-align: center;
+}
+p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	text-align: justify;
+	line-height: 2;
+}
+
+/*Table style*/
+table{
+	border-collapse: collapsed;
+	width: 100;
+}
+th,td{
+	border: 1px solid #000;
+}
+tr:nth-child(2n+2){
+	background-color: #eee;
+}
+tr:hover{
+	background-color: #ecf029;
+}
